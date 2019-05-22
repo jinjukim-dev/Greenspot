@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="selected">
+        <item>상지절단</item>
+        <item>하지절단</item>
+        <item>하지관절</item>
+        <item>하지기능</item>
+        <item>척추장애</item>
+        <item>변형장애</item>
+        <item>뇌병변장애</item>
+        <item>시각장애</item>
+        <item>평형장애</item>
+        <item>신장장애</item>
+        <item>호흡기장애</item>
+        <item>간장애</item>
+        <item>지적장애</item>
+        <item>자폐성장애</item>
+        <item>정신장애</item>
+    </string-array>
+
+    <string-array name="grade">
+        <item>1등급</item>
+        <item>2등급</item>
+        <item>3등급</item>
+        <item>4등급</item>
+        <item>5등급</item>
+    </string-array>
+</resources>

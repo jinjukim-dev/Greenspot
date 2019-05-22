@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 회원가입, 로그인 창 화면 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="270dp"
+        android:gravity="center">
+
+        <!-- 로그인 이름 입력-->
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="이름입력"
+            android:inputType="textPersonName"
+            android:textSize="25dp"/>
+
+        <!-- 로그인 휴대폰번호 입력-->
+        <EditText
+            android:id="@+id/user_inum"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="휴대폰번호 입력 "
+            android:inputType="number"
+            android:textSize="25dp" />
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="자동로그인"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="105dp"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:background="@drawable/loginbtn"
+        android:layout_width="350dp"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/btnJoin"
+        android:background="@drawable/joinbtn1"
+        android:layout_width="350dp"
+        android:layout_height="60dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
