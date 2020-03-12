@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!-- 주차직접인증 화면 -->
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:layout_marginTop="350dp">
+    android:background="@drawable/parking">
 
-   <ToggleButton
-       android:layout_width="wrap_content"
-       android:layout_height="80dp"
-       android:id="@+id/togglButton1"
-       android:textOn=""
-       android:textOff=""
-       android:background="@drawable/jucha_btn1"
-      />
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:id="@+id/togglButton1"
+        android:textOn=""
+        android:textOff=""
+        android:background="@drawable/jucha_btn1"
+        android:layout_marginTop="460dp"
+        />
 
-
-</RelativeLayout>
+</LinearLayout>
