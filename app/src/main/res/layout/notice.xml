@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+
+    >
+
+    <TextView
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="공지 사항"
+        android:gravity="center"
+        android:textSize="18dp"
+
+        android:padding="8dp"
+
+        android:textColor="#ffffff"
+
+        android:id="@+id/noticeText"
+
+
+        android:background="#ff2f4f4f"
+
+        android:textStyle="bold"
+
+        />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:background="#ff2f4f4f">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="match_parent"
+
+            android:layout_gravity="center"
+
+            android:padding="3dp"
+
+            android:layout_marginLeft="8dp"
+
+            android:textColor="#ffffff"
+
+            android:textColorHint="#ffffff"
+
+            android:id="@+id/nameText"
+
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="match_parent"
+
+            android:layout_gravity="center"
+
+            android:padding="3dp"
+
+            android:textColor="#ffffff"
+
+            android:textColorHint="#ffffff"
+
+            android:id="@+id/dateText"
+
+            />
+
+    </LinearLayout>
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:id="@+id/notice">
+
+
+
+            //아래 부분이 추가됬습니다. 리스트뷰를 뿌려주기 위한 부분입니다.
+
+            <ListView
+
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+
+                android:id="@+id/noticeListView"
+
+
+
+                android:divider="#ffffff"
+
+                >
+
+            </ListView>
+
+        </LinearLayout>
+
+        <RelativeLayout
+
+            android:id="@+id/fragment"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"></RelativeLayout>
+
+    </FrameLayout>
+
+</LinearLayout>
+

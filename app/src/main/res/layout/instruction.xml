@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:background="@android:color/transparent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/transparent"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="180dp"
+                android:layout_height="165dp"
+                android:background="@android:color/transparent"/>
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="180dp"
+                android:layout_height="165dp"
+                android:background="@android:color/transparent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnTutorial1"
+                android:layout_width="180dp"
+                android:layout_height="165dp"
+                android:background="@drawable/mainbtn3" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="180dp"
+                android:layout_height="165dp"
+                android:background="@android:color/transparent"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/click1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btnTutorial2"
+            android:layout_width="329dp"
+            android:layout_height="64dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/empty"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        android:background="@drawable/parking">
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:id="@+id/btnTutorial3"
+            android:textOn=""
+            android:textOff=""
+            android:background="@drawable/jucha_btn1"
+            android:layout_marginTop="460dp"
+            />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btn_end"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/endbtn"/>
+
+            <TextView
+                android:id="@+id/text_explain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="장애인 주차장에 주차를 한 후,\n주차인증 버튼 클릭합니다."
+                android:textSize="10pt"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:background="@color/colorAccent"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/clicker1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/clicker"
+            android:layout_marginTop="490dp"
+            android:layout_marginLeft="55dp"
+            android:visibility="visible"
+            />
+
+        <ImageView
+            android:id="@+id/clicker2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/clicker"
+            android:layout_marginTop="270dp"
+            android:layout_marginLeft="140dp"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/clicker3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/clicker"
+            android:layout_marginTop="520dp"
+            android:layout_marginLeft="140dp"
+            android:visibility="gone"
+            />
+
+    </FrameLayout>
+
+</FrameLayout>
