@@ -22,3 +22,9 @@
 <img src = "https://user-images.githubusercontent.com/62095517/88177948-96fa3f80-cc64-11ea-9555-b9423dc49b0a.PNG" width="85%">
 
 ### UI/UX
+<div>
+<img src = "https://user-images.githubusercontent.com/62095517/88179770-59e37c80-cc67-11ea-9683-35bdd8e5b944.png" width="23%">
+<img src = "https://user-images.githubusercontent.com/62095517/88179884-7bdcff00-cc67-11ea-810b-700cb001542c.png" width="23%">
+<img src = "https://user-images.githubusercontent.com/62095517/88179918-88f9ee00-cc67-11ea-950b-3b4572b19add.png" width="23%">
+<img src = "https://user-images.githubusercontent.com/62095517/88179939-9020fc00-cc67-11ea-8da7-f746fd216819.png" width="23%">
+ </div>
