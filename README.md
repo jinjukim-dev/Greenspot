@@ -18,7 +18,7 @@
  - 어플리케이션 이용 전 사용 가이드 기능
 
 ### 시스템 구조도
-![시스템 구조도](system.PNG "img")
-
+<!--![시스템구조도](https://user-images.githubusercontent.com/62095517/88177948-96fa3f80-cc64-11ea-9555-b9423dc49b0a.PNG)-->
+<img src = "https://user-images.githubusercontent.com/62095517/88177948-96fa3f80-cc64-11ea-9555-b9423dc49b0a.PNG" width="85%">
 
 ### UI/UX
